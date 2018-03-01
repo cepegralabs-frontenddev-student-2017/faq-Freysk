@@ -1,0 +1,6 @@
+  {{#each this}}
+  <div class="faq__group">
+    <dt class="faq__question"><a href="#answer{{@index}}">{{question}}</a></dt>
+    <dd class="faq__answer" id="answer{{@index}}">{{{answer}}}</dd>
+  </div>
+  {{/each}}
